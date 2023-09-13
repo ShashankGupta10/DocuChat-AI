@@ -10,6 +10,15 @@ This project is a generative AI chatbot that specializes in extracting and compr
 - Responses: The chatbot uses generative AI to provide meaningful responses based on the trained knowledge base.
 - User-Friendly: The project is built with a user-friendly interface using Streamlit for easy interaction.
 
+## Use Cases
+The Generative AI Chatbot for PDFs has a wide range of practical applications, including:
+1. **Research Assistance**: Researchers can quickly extract information from academic papers and journals, making it easier to find relevant studies and data.
+2. **Legal Document Analysis**: Legal professionals can use the chatbot to review legal documents, contracts, and case law to answer specific questions.
+3. **Education Support**: Students and educators can use the chatbot to better understand complex topics by asking questions about textbooks and research papers.
+4. **Knowledge Base Creation**: The chatbot can be employed to generate a knowledge base from a collection of PDFs, facilitating data retrieval.
+5. **Technical Documentation**: Developers and engineers can use the chatbot to search for specific information in technical manuals and documentation.
+6. **Compliance and Regulatory Queries**: Compliance officers can rely on the chatbot to ensure adherence to regulations by querying compliance documents.
+
 ## Tech Stack
 - **Langchain**: Langchain is used for natural language processing (NLP) tasks, including text extraction and understanding.
 - **PyPDF2**: PyPDF2 is utilized to extract textual content from PDF documents.
@@ -25,5 +34,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-chatbot-repo.git
-   cd your-chatbot-repo
+   git clone https://github.com/ShashankGupta10/DocuChat-AI.git
+   cd DocuChat-AI
+   pip install -r requirements.txt
+   streamlit run app.py
