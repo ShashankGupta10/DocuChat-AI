@@ -40,7 +40,7 @@ def get_vectorstore(text_chunks):
 
 
 def get_conversation_chain(vectorstore):
-    llm = ChatGooglePalm(google_api_key=os.environ["GOOGLE_API_KEY"]) # type: ignore
+    llm = ChatGooglePalm(google_api_key=st.secrets["GOOGLE_API_KEY"]) # type: ignore
     # llm = HuggingFaceHub(repo_id="google/flan-t5-xxl", model_kwargs={"temperature":0.5, "max_length":512})
 
     memory = ConversationBufferMemory(
